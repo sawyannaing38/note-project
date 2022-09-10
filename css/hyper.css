@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  background: linear-gradient(200deg, #05FFC3 50%, rgba(58, 84, 223, 0.4));
+  background-repeat: no-repeat;
+  background-position: 70% 0;
+}
+body header h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 20px 0px;
+}
+body header h4 {
+  font-size: 20px;
+  font-family: "Inter";
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+body header nav {
+  -webkit-animation-name: slider;
+  animation-name: slider;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  position: relative;
+}
+body header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body header nav ul li a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  background-color: rgb(240, 227, 227);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: color 0.15s, background-color 0.15s;
+  -webkit-transition: color 0.15s, background-color 0.15s;
+  -moz-transition: color 0.15s, background-color 0.15s;
+  -ms-transition: color 0.15s, background-color 0.15s;
+  -o-transition: color 0.15s, background-color 0.15s;
+}
+body header nav ul li a:hover {
+  color: rgb(240, 227, 227);
+  background-color: black;
+}
+
+@-webkit-keyframes slider {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slider {
+  0% {
+    bottom: 100px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+main {
+  margin: 30px 0px;
+}
+main article {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+}
+main article h2 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+main article p {
+  font-family: "Arial";
+  font-size: 20px;
+  line-height: 160%;
+  margin-bottom: 5px;
+}
+main article p a {
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.15s;
+  -webkit-transition: color 0.15s;
+  -moz-transition: color 0.15s;
+  -ms-transition: color 0.15s;
+  -o-transition: color 0.15s;
+}
+main article p a:hover {
+  color: yellow;
+}
+main .heading {
+  background-color: #292929;
+  color: white;
+}
+main .heading p a {
+  color: #0467FC;
+}
+main .para {
+  background-color: #E29752;
+}
+main .para p a {
+  color: white;
+}
+main .link {
+  background-color: #B85F4B;
+  color: white;
+}
+main .link p a {
+  color: #07FFE1;
+}
+main .list {
+  background-color: #47EEB2;
+}
+main .list p a {
+  color: #EB0767;
+}
+main .image {
+  background-color: #3A54DF;
+  color: white;
+}
+main .image p a {
+  color: #06ED9A;
+}
+main .divi {
+  background-color: #F0DDEE;
+}
+main .divi p a {
+  color: #ED0505;
+}
+
+footer {
+  margin: 30px 0px;
+}
+footer p {
+  font-size: 32px;
+  color: white;
+  font-size: "Inter";
+}
+footer nav {
+  margin: 10px 0px;
+}
+footer nav ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+footer nav ul li {
+  margin-right: 10px;
+}
+footer nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.15s;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+}
+footer nav ul li a.first {
+  background-color: #e3e3e3;
+  color: black;
+}
+footer nav ul li a.first:hover {
+  background-color: black;
+  color: #e3e3e3;
+}
+footer nav ul li a.second {
+  color: white;
+  border: 3px solid black;
+}
+footer nav ul li a.second:hover {
+  color: black;
+  border-color: white;
+}/*# sourceMappingURL=hyper.css.map */
