@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/hyper.css">
     <title>HTML Notes</title>
 </head>
 <body>
@@ -12,19 +16,19 @@
         <h4>Read HTML Notes Here.</h4>
         <nav>
             <ul>
-                <li><a href="">Heading</a></li>
-                <li><a href="">Paragraph</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">List</a></li>
-                <li><a href="">Image</a></li>
-                <li><a href="">Division</a></li>
+                <li><a href="#heading">Heading</a></li>
+                <li><a href="#para">Paragraph</a></li>
+                <li><a href="#link">Link</a></li>
+                <li><a href="#list">List</a></li>
+                <li><a href="#image">Image</a></li>
+                <li><a href="#divi">Division</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <article>
-            <h2>Heading</h2>
+        <article class="heading">
+            <h2 id="heading">Heading</h2>
             <p>
                 Heading is used as the header of the content like title.It is bold and learge in default but we can 
                 overwrite it using CSS.There is 6 types of heading from h1 to h6 , each represents the importance of the 
@@ -33,16 +37,16 @@
             <p>Watch Heading Example <a href="">Here.</a></p>
         </article>
 
-        <article>
-            <h2>Paragraph</h2>
+        <article class="para">
+            <h2 id="para">Paragraph</h2>
             <p>
                 Paragraph is used to display the content on the webpage.p tag is used for paragraph.
             </p>
             <p>Watch Paragraph Example <a href="">Here.</a></p>
         </article>
 
-        <article>
-            <h2>Link</h2>
+        <article class="link">
+            <h2 id="link">Link</h2>
             <p>
                 Link is one of the most importnat element in HTML.It gives the abality to jump from one webpage to another 
                 webpage or another website.a tag is used for link and href attribute is nessary and used to indicate the 
@@ -51,8 +55,8 @@
             <p>Watch Link Example <a href="">Here.</a></p>
         </article>
 
-        <article>
-            <h2>List</h2>
+        <article class="list">
+            <h2 id="list">List</h2>
             <p>
                 List is another useful element.There are two main types of list , ordered list and unordered list.
                 ul is used for unordered list and ol is used for ordered list. There is also definition list which is not used
@@ -61,8 +65,8 @@
             <p>Watch List Example <a href="">Here.</a></p>
         </article>
 
-        <article>
-            <h2>Image</h2>
+        <article class="image">
+            <h2 id="image">Image</h2>
             <p>
                 Image is useful for the visual part of the webpage.The user can understand more with images and the website look 
                 colorful and charming.img tag is used for the image , it is a void element (means it doesn't need closing tag) , src 
@@ -71,8 +75,8 @@
             <p>Watch Image Example <a href="">Here.</a></p>
         </article>
 
-        <article>
-            <h2>Division</h2>
+        <article class="divi">
+            <h2 id="divi">Division</h2>
             <p>
                 Division is nothing but used for to group the multiple element for the purpose of styling or something other.
                 div tag is used for division.In HTML5 , a lot of new elements are introduced in order to replace div such as 
@@ -86,8 +90,8 @@
         <p>This is all you need to know to creat web pages.</p>
         <nav>
             <ul>
-                <li><a href="">Watch More HTML Projects.</a></li>
-                <li><a href="index.html">Back to Home</a></li>
+                <li><a class="first" href="">Watch More HTML Projects.</a></li>
+                <li><a class="second" href="index.html">Back to Home</a></li>
             </ul>
         </nav>
     </footer>
