@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80%;
+  background: linear-gradient(170deg, #D99E9E 30%, #60CAF3 70%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 0;
+  margin: auto;
+}
+body header {
+  margin-bottom: 100px;
+}
+body header h1 {
+  font-family: "Salsa", cursive;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  line-height: 133.6%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+body header h4 {
+  font-size: 20px;
+  font-family: "Salsa", cursive;
+  margin-bottom: 10px;
+}
+body header ul {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border: 3px solid white;
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+body header a {
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  font-family: "Salsa", cursive;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  transition: color 0.15s, background-image 0.15s;
+  -webkit-transition: color 0.15s, background-image 0.15s;
+  -moz-transition: color 0.15s, background-image 0.15s;
+  -ms-transition: color 0.15s, background-image 0.15s;
+  -o-transition: color 0.15s, background-image 0.15s;
+}
+body header a:hover {
+  color: white;
+}
+body header .html {
+  background-image: url(../images/html-black.png);
+  background-size: 50px;
+  padding-left: 55px;
+}
+body header .html:hover {
+  background-image: url(../images/html-WHITE.png);
+}
+body header .css {
+  background-image: url(../images/Untitled-2.png);
+  background-size: 40px 44.25px;
+  padding-left: 45px;
+}
+body header .css:hover {
+  background-image: url(../images/CSS-WHITE.png);
+}
+body header .git {
+  background-image: url(../images/git-BLACK.png);
+  background-size: 40px;
+  padding-left: 45px;
+}
+body header .git:hover {
+  background-image: url(../images/git.png);
+}
+
+.button, main div.container div.extra ul li a.second, main div.container div.extra ul li a.first {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  transition: all 0.15s;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+}
+
+main p.improve {
+  margin-top: 40px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+main p.improve a {
+  text-decoration: none;
+}
+main p.reminder {
+  margin-top: 60px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border: 2px dotted black;
+}
+main nav {
+  margin-top: 50px;
+}
+main nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+main nav ul li {
+  padding: 5px 10px;
+  text-align: center;
+}
+main nav ul li a {
+  display: inline-block;
+  padding: 20px 100px;
+  color: white;
+  background-color: #D99E9E;
+  text-decoration: none;
+  font-family: "Kadwa", serif;
+  transition: color 0.15s, background-color 0.15s;
+  -webkit-transition: color 0.15s, background-color 0.15s;
+  -moz-transition: color 0.15s, background-color 0.15s;
+  -ms-transition: color 0.15s, background-color 0.15s;
+  -o-transition: color 0.15s, background-color 0.15s;
+}
+main nav ul li a:hover {
+  color: #D99E9E;
+  background-color: white;
+}
+main h1 {
+  font-size: 50px;
+  font-family: "Inter";
+  font-weight: 200;
+  text-align: center;
+  margin-top: 100px;
+}
+main div.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 30px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+main div.container article h2 {
+  padding-top: 10px;
+  font-family: "Salsa", cursive;
+  font-size: 38px;
+  margin-bottom: 60px;
+}
+main div.container article p {
+  font-size: 24px;
+  font-family: Arial;
+  line-height: 160%;
+}
+main div.container article p a {
+  text-decoration: none;
+}
+main div.container div.extra {
+  text-align: center;
+}
+main div.container div.extra img {
+  width: 200px;
+}
+main div.container div.extra ul {
+  text-align: center;
+  list-style: none;
+}
+main div.container div.extra ul li {
+  margin: 10px;
+}
+main div.container div.extra ul li a.first {
+  font-family: "Kadwa", serif;
+  color: white;
+  border: 3px solid black;
+}
+main div.container div.extra ul li a.first:hover {
+  color: black;
+  border-color: white;
+}
+main div.container div.extra ul li a.second {
+  font-family: "Kadwa", serif;
+  color: black;
+  background-color: white;
+}
+main div.container div.extra ul li a.second:hover {
+  color: white;
+  background-color: black;
+}
+
+hr {
+  border-color: black;
+}
+
+footer {
+  background: linear-gradient(110deg, rgba(5, 5, 5, 0.3) 25%, #D99E9E 75%);
+  padding: 30px 0px;
+  margin-top: 40px;
+}
+footer p {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */
