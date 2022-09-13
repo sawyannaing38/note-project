@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  background: linear-gradient(225deg, #6AC3EA, #FDEA8A);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+header {
+  margin: 40px 0px;
+}
+header h1 {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 40px;
+}
+header nav {
+  margin: 20px 0px;
+}
+header nav ul {
+  list-style: circle;
+  list-style-position: inside;
+}
+header nav ul li {
+  margin: 10px 0px;
+}
+header nav ul li a {
+  color: black;
+  font-size: 24px;
+  font-family: "Inter";
+  text-decoration: none;
+  transition: color 0.15s;
+  -webkit-transition: color 0.15s;
+  -moz-transition: color 0.15s;
+  -ms-transition: color 0.15s;
+  -o-transition: color 0.15s;
+}
+header nav ul li a:hover {
+  color: #0047FF;
+}
+
+main {
+  margin: 30px 0px;
+}
+main h2 {
+  font-family: "Inter";
+  font-size: 30px;
+}
+main p {
+  font-family: Arial;
+}/*# sourceMappingURL=daily.css.map */
