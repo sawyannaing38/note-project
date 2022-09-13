@@ -7,6 +7,9 @@
 body {
   width: 80%;
   margin: auto;
+  background: linear-gradient(225deg, #6AC3EA, #FDEA8A);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
 }
 
 header h1 {
@@ -25,4 +28,12 @@ header nav ol li a {
   font-size: 20px;
   color: black;
   text-decoration: none;
+  transition: color 0.15s;
+  -webkit-transition: color 0.15s;
+  -moz-transition: color 0.15s;
+  -ms-transition: color 0.15s;
+  -o-transition: color 0.15s;
+}
+header nav ol li a:hover {
+  color: #0047FF;
 }/*# sourceMappingURL=first-month.css.map */
