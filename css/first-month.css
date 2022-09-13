@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+header h1 {
+  font-family: "Inter";
+  font-size: 40px;
+  text-align: center;
+}
+header nav {
+  margin: 30px 0px;
+}
+header nav ol li {
+  margin: 10px 0px;
+}
+header nav ol li a {
+  font-family: "Inter";
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=first-month.css.map */
