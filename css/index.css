@@ -62,6 +62,9 @@ header ul a.css {
 header ul a.git {
   background-image: url(../images/git.png);
 }
+header ul a.note {
+  background-image: url(../images/note.png);
+}
 
 main {
   margin-bottom: 50px;
